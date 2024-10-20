@@ -1,0 +1,79 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729357878
+<< nwell >>
+rect 708 1386 1001 2932
+<< viali >>
+rect 2281 894 2315 928
+<< metal1 >>
+rect 864 2743 1405 2789
+rect 803 2197 961 2198
+rect 803 2194 2097 2197
+rect 803 2134 813 2194
+rect 876 2144 2097 2194
+rect 876 2134 886 2144
+rect 3262 1231 3272 1283
+rect 3325 1231 3335 1283
+rect 839 1035 1159 1075
+rect 2269 928 2367 934
+rect 2269 894 2281 928
+rect 2315 894 2367 928
+rect 2269 888 2367 894
+rect 613 55 647 144
+rect 613 21 1242 55
+<< via1 >>
+rect 813 2134 876 2194
+rect 3272 1231 3325 1283
+<< metal2 >>
+rect 2592 2920 2622 2942
+rect 813 2194 876 2204
+rect 813 2124 876 2134
+rect 1505 1394 2523 1437
+rect 2665 1390 2741 1395
+rect 2661 1324 2670 1390
+rect 2736 1324 2745 1390
+rect 2665 1144 2741 1324
+rect 3272 1293 3324 1635
+rect 3272 1283 3325 1293
+rect 3272 1221 3325 1231
+rect 1600 481 1652 575
+<< via2 >>
+rect 2670 1324 2736 1390
+<< metal3 >>
+rect 2462 1474 2538 1629
+rect 2462 1398 2741 1474
+rect 2665 1390 2741 1398
+rect 2665 1324 2670 1390
+rect 2736 1324 2741 1390
+rect 2665 1319 2741 1324
+use nmoscs2  nmoscs2_0
+timestamp 1729241230
+transform 0 1 2945 -1 0 1198
+box -176 -589 1266 658
+use nmoscs  nmoscs_0
+timestamp 1729343963
+transform 1 0 1340 0 1 515
+box -340 -626 1022 692
+use pmoscs  pmoscs_0
+timestamp 1729357806
+transform 1 0 178 0 1 106
+box -178 -106 822 2824
+use pmosdif  pmosdif_0
+timestamp 1729237126
+transform -1 0 3284 0 -1 2118
+box -342 -834 1910 724
+<< labels >>
+flabel metal1 1144 2769 1144 2769 0 FreeSans 800 0 0 0 VDD
+port 1 nsew
+flabel metal2 1946 1416 1946 1416 0 FreeSans 800 0 0 0 VIN
+port 3 nsew
+flabel metal1 2336 918 2336 918 0 FreeSans 800 0 0 0 GND
+port 4 nsew
+flabel metal2 1624 503 1624 503 0 FreeSans 800 0 0 0 RS
+port 7 nsew
+flabel metal3 2697 1420 2697 1420 0 FreeSans 800 0 0 0 OUT
+port 8 nsew
+flabel metal2 2610 2934 2610 2934 0 FreeSans 800 0 0 0 VIP
+port 10 nsew
+<< end >>

@@ -1,16 +1,19 @@
-📋 Deskripsi Proyek
-Repository ini berisi desain dan implementasi tiga rangkaian analog utama: inverter, oscillator, dan op-amp. Setiap folder dalam repository berisi schematic, layout menggunakan Magic VLSI, serta file LVS untuk memverifikasi kesesuaian antara schematic dan layout. Selain itu, terdapat dokumentasi terkait untuk mendukung pemahaman dan pengembangan lebih lanjut.
+Analog Circuit Design Repository
+Design and Implementation of Inverter, Oscillator, and Op-Amp
 
-🛠 Struktur Proyek
+📋 Project Description
+This repository contains the design and implementation of three essential analog circuits: inverter, oscillator, and op-amp. Each folder includes schematics, layouts created with Magic VLSI, and LVS files to verify the consistency between the schematic and layout. Additional documentation is also provided to support further understanding and development.
+
+🛠 Project Structure
 inverter/
-Berisi schematic, layout, testbench, dan hasil LVS
+Contains the schematic, layout, testbench, and LVS results.
 oscillator/
-Berisi schematic, layout, testbench dan hasil LVS
+Contains the schematic, layout, testbench, and LVS results.
 documentation/
-Berisi gambar schematic, layout dan hasil LVS match dari rangkaian inverter dan oscillator
+Includes images of the schematics, layouts, and matching LVS results for the inverter and oscillator circuits.
 opamp/
-Berisi schematic, layout, hasil LVS, dan dokumentasi op-amp.
+Contains the schematic, layout, LVS results, and documentation for the op-amp.
 
+🚀 Installation and Usage
+Ensure that Magic VLSI and appropriate software for schematic simulation, such as SPICE or other EDA tools, are installed. Open the schematic or layout files in each folder to begin analysis and design verification.
 
-🚀 Instalasi dan Penggunaan
-Pastikan kamu telah menginstal Magic VLSI dan perangkat lunak yang mendukung simulasi schematic seperti SPICE atau alat EDA lainnya. Buka file schematic atau layout yang tersedia di setiap folder untuk memulai analisis dan verifikasi desain. 
